@@ -29,7 +29,16 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+class LocaleCubit extends PrefCubit<Locale?> {
+  LocaleCubit(SharedPreferences prefs)
+      : super(
+    prefs,
+    'appLanguage',
+    null,
+        (locale) => locale.toString(),
+        (locale) => Locale(locale),
+  );
+}
 ```
 
 ## Additional information
