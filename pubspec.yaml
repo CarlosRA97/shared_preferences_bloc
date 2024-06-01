@@ -1,7 +1,7 @@
 name: shared_preferences_bloc
 description: "Shared Preferences Wrapper for BLoC"
 version: 0.0.1
-homepage:
+homepage: https://github.com/CarlosRA97/shared_preferences_bloc.git
 
 environment:
   sdk: '>=3.4.1 <4.0.0'
