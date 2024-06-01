@@ -175,3 +175,6 @@ Future<void> main() async {
 
 
 ```
+
+## Inspired by
+- https://github.com/gamako/shared_preferences_riverpod
